@@ -1,0 +1,270 @@
+.wrapper
+{
+	width: 100%;
+	height: auto;
+	margin: 50px auto 0px;
+}
+.wrap-content
+{
+	width: 1000px;
+	height: 100%;
+	margin: auto;
+}
+.container
+{
+	width: 100%;
+	height: auto;
+	min-height: 300px;
+	overflow: hidden;
+	margin: 20px auto;
+}
+.titleBar
+{
+	border-bottom: 1px solid #1d5e1d;
+	width: 100%;
+	height: 40px;
+}
+.titleBar a
+{
+	text-decoration: none;
+	display: block;
+	color: #242424;
+	font: 18px/40px tahoma;
+	width: 195px;
+	height: 38px;
+	border-bottom: 3px solid #1d5e1d;
+}
+.contentLayer
+{
+	width: 100%;
+	height: auto;
+	min-height: 300px;
+	overflow: hidden;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.section
+{
+	width: 48%;
+	height: auto;
+	min-height: 300px;
+	overflow: hidden;
+	float: left;
+	margin-right: 1%;
+}
+.box
+{
+	background-color: red;
+	width: 24%;
+	height: 241px;
+	float: left;
+	margin-right: 1.333%;
+	margin-bottom: 10px;
+}
+.header
+{
+	width: 100%;
+	height: 80px;
+}
+.header .wrap-content .logo
+{
+	float: left;
+}
+.header .wrap-content .logo h1
+{
+	font: 36px tahoma;
+}
+.header .wrap-content .form
+{
+	float: right;
+}
+.header .wrap-content .form .txtbox
+{
+	width: 165px;
+    height: 36px;
+    border: 1px solid #cacaca;
+    padding: 0 0 0 10px;
+}
+.header .wrap-content .form .btn
+{
+	width: 51px;
+    height: 36px;
+    text-align: center;
+    background: #333333;
+    color: #fff;
+    border: 1px solid #cacaca;
+    cursor: pointer;
+}
+.navbar
+{
+	width: 100%;
+	height: 40px;;
+}
+.navbar .wrap-content
+{
+	border-bottom: 3px solid rgb(112, 212, 112);
+}
+.navbar .wrap-content ul li a
+{
+	text-decoration: none;
+	float: left;
+	display: block;
+	color: #242424;
+	font: 18px/40px tahoma;
+	margin-right: 35px;
+}
+.navbar .wrap-content ul li a:hover
+{
+	color: rgb(27, 98, 27);
+	border-bottom: 3px solid #242424;
+}
+.slider
+{
+	width: 100%;
+	height: 307px;
+	margin-top: 20px;
+}
+.slider .wrap-content img
+{
+	width: 100%;
+	height: 100%;
+}
+.slogan
+{
+	width: 100%;
+	height: 113;
+}
+.slogan .wrap-content
+{
+	background-color: #679966;
+}
+.slogan .wrap-content p
+{
+	text-align: center;
+	padding: 15px;
+	font: 36px tahoma;
+	color: white;
+}
+.content
+{
+	margin-top: 20px;
+	width: 100%;
+	height: auto;
+	min-height: 400px;
+	overflow: hidden;
+}
+.content .wrap-content
+{
+	height: auto;
+	min-height: 400px;
+	overflow: hidden;
+}
+.footer
+{
+	margin-top: 20px;
+	width: 100%;
+	height: auto;
+	min-height: 100px;
+	overflow: hidden;
+}
+.footer .footer-header
+{
+	height: auto;
+	min-height: 100px;
+	overflow: hidden;
+	background-color: #333;
+}
+.footer .footer-header .wrap-content
+{
+	height: auto;
+	min-height: 100px;
+	overflow: hidden;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+.footer-box
+{
+	width: 32.333%;
+	height: auto;
+	min-height: 100px;
+	overflow: hidden;
+	float: left;
+	margin-right: 1.33%;
+	
+}
+.footerBox-heading
+{
+	color: #cacaca;
+	width: 100%;
+	height: 40px;
+	font: 18px/40px tahoma;
+}
+.footerBox-layer p
+{
+	color: #717172;
+
+}
+.footerBox-layer .icon
+{
+	width: 50px;
+	height: 50px;
+	float: left;
+	margin-right: 10px;
+}
+.footerBox-layer .text
+{
+	width: 90%;
+	margin-bottom: 10px;
+}
+.footerBox-layer .text a
+{
+	text-decoration: none;
+	color: #659968;
+}
+.footerBox-layer .form .txtbox
+{
+	width: 77%;
+	height: 40;
+	background-color: #242424;
+	color: #717172;
+	padding-left: 10px;
+	line-height: 40px;
+	border: none;
+	float: left;
+}
+.footerBox-layer .form .btn
+{
+	width: 23%;
+	height: 40;
+	background-color: #659968;
+	color: white;
+	line-height: 40px;
+	border: none;
+	float: left;
+}
+.footer .footer-bottom
+{
+	height: 65px;
+	background-color: #242424;
+}
+.footer .footer-bottom .wrap-content .left
+{
+	float: left;
+	color: #aaa;
+	font: 14px/65px tahoma;
+}
+.footer .footer-bottom .wrap-content .right
+{
+	float: right;
+	color: #aaa;
+	font: 14px/65px tahoma;
+}
+/*global glasses*/
+.bg-red{background-color: pink;}
+.bg-green{background-color: lightgreen;}
+.bg-blue{background-color: lightblue;}
+.bg-black{background-color: gray;}
+.bg-orange{background-color: orangered;}
+.bg-yello{background-color: yellow;}
+.bg-navy{background-color: navy;}
+.pull-right{float: right; margin-right: 0;}
